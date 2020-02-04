@@ -1,0 +1,11 @@
+// base layout
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  @media screen and (max-width: 600px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

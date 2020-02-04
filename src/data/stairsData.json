@@ -1,0 +1,118 @@
+[
+  {
+    "id": "schody#1",
+    "images": [
+      "main",
+      "schody1-0",
+      "schody1-1",
+      "schody1-2",
+      "schody1-3",
+      "schody1-4"
+    ]
+  },
+  {
+    "id": "schody#2",
+    "images": [
+      "main",
+      "schody2-0",
+      "schody2-1",
+      "schody2-2",
+      "schody2-3",
+      "schody2-4"
+    ]
+  },
+  {
+    "id": "schody#3",
+    "images": [
+      "main",
+      "schody3-0",
+      "schody3-1",
+      "schody3-2",
+      "schody3-3",
+      "schody3-4"
+    ]
+  },
+  {
+    "id": "schody#4",
+    "images": [
+      "main",
+      "schody4-0",
+      "schody4-1",
+      "schody4-2",
+      "schody4-3",
+      "schody4-4",
+      "schody4-5"
+    ]
+  },
+  {
+    "id": "schody#5",
+    "images": [
+      "main",
+      "schody5-0",
+      "schody5-1",
+      "schody5-2",
+      "schody5-3",
+      "schody5-4"
+    ]
+  },
+  {
+    "id": "schody#6",
+    "images": ["main", "schody6-0", "schody6-1", "schody6-2", "schody6-3"]
+  },
+  {
+    "id": "schody#7",
+    "images": [
+      "main",
+      "schody7-0",
+      "schody7-1",
+      "schody7-2",
+      "schody7-3",
+      "schody7-4",
+      "schody7-5"
+    ]
+  },
+  {
+    "id": "schody#8",
+    "images": [
+      "main",
+      "schody8-0",
+      "schody8-1",
+      "schody8-2",
+      "schody8-3",
+      "schody8-4",
+      "schody8-5"
+    ]
+  },
+  {
+    "id": "schody#9",
+    "images": [
+      "main",
+      "schody9-0",
+      "schody9-1",
+      "schody9-2",
+      "schody9-3",
+      "schody9-4",
+      "schody9-5"
+    ]
+  },
+  {
+    "id": "schody#10",
+    "images": ["main", "schody10-0", "schody10-1", "schody10-2", "schody10-3"]
+  },
+  {
+    "id": "schody#11",
+    "images": ["main", "schody11-0", "schody11-1", "schody11-2", "schody11-3"]
+  },
+  {
+    "id": "schody#12",
+    "images": [
+      "main",
+      "schody12-0",
+      "schody12-1",
+      "schody12-2",
+      "schody12-3",
+      "schody12-4",
+      "schody12-5"
+    ]
+  }
+]

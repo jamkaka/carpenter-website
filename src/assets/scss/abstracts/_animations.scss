@@ -1,0 +1,65 @@
+@mixin onePropSymAnimation(
+  $name,
+  $property,
+  $duration,
+  $from,
+  $to,
+  $isRouteAnimation
+) {
+  .#{$name} {
+    &-leave-active,
+    &-enter-active {
+      transition-property: $property;
+      transition-duration: $duration;
+    }
+    // need to delay enter as leave has to take place.
+    @if $isRouteAnimation {
+      &-enter-active {
+        transition-delay: $duration;
+      }
+    }
+
+    &-enter-to,
+    &-leave {
+      #{$property}: $to;
+    }
+    &-enter,
+    &-leave-to {
+      #{$property}: $from;
+    }
+  }
+}
+
+@include onePropSymAnimation('fade-route', opacity, 0.55s, 0, 1, true);
+@include onePropSymAnimation('fade--fast', opacity, 0.3s, 0, 1, true);
+@include onePropSymAnimation('fade-modal', opacity, 0.5s, 0, 1, false);
+
+.pop-out {
+  &-enter-active,
+  &-leave-active {
+    transition-property: opacity transform;
+    transition-duration: 0.4s;
+  }
+  &-enter,
+  &-leave-to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  &-enter-to,
+  &-leave {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-in-enter {
+  transform: translateX(100%);
+}
+
+.slide-in-enter-active {
+  transition: transform 1.2s 1s ease;
+}
+
+.slide-in-enter-to {
+  transform: translateX(0);
+}
